@@ -7,7 +7,7 @@ caused by a newer version of iOS or something), so be sure to look at the
 [source code for this screencast](https://github.com/michael-erasmus/motioncasts-geomotion-sugarcube)
 while you're working on it.
 
-Specifically, I had got `ArgumentError` on this line from the screencast:
+Specifically, I had an `ArgumentError` on this line from the screencast:
 
 ```ruby
 scroll.contentSize = CGRect.make(scroll_frame.width * 3, scroll_frame.height)
